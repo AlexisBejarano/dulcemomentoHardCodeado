@@ -14,19 +14,19 @@ const CardBasic = ({ data }) => {
             <div className="mt-1 flex pb-1 text-xs sm:text-[14px] font-medium justify-between font-['Afacad'] flex-shrink-0">
                 <div className="flex items-center">
                     <div
-                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('../../public/images/icons/ico1.png')]"
+                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('/images/icons/ico1.png')]"
                     />
                     <p className="font-['Podkova']">{data.category}</p>
                 </div>
                 <div className="flex truncate">
                     <div
-                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('../../public/images/icons/ico4.png')]"
+                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('/images/icons/ico4.png')]"
                     />
                     <p className="pt-0.5 font-['Podkova']">{data.cookingTime}</p>
                 </div>
                 <div className="flex">
                     <div
-                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('../../public/images/icons/ico5.png')]"
+                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('/images/icons/ico5.png')]"
                     />
                     <p className="pt-0.5 font-['Podkova']">{data.difficulty}</p>
                 </div>

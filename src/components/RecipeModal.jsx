@@ -137,14 +137,14 @@ const RecipeModal = ({ recipe, isOpen, onClose }) => {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 p-6">
               <div>
                 <div className='flex'>
-                    <img src={`../../public/images/icons/ico5.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
+                    <img src={`/images/icons/ico5.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
                     <p className="text-sm text-gray-600 font-['Afacad']">Dificultad</p>
                 </div>
                 <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full font-['Afacad']`}>{recipe.difficulty}</span>
               </div>
               <div>
                 <div className='flex'>
-                    <img src={`../../public/images/icons/ico4.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
+                    <img src={`/images/icons/ico4.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
                     <p className="text-sm text-gray-600 font-['Afacad']">Tiempo</p>
                 </div>
                 <p className="font-['Afacad'] font-medium">{recipe.cookingTime} min</p>
@@ -152,7 +152,7 @@ const RecipeModal = ({ recipe, isOpen, onClose }) => {
 
               <div>
                 <div className='flex'>
-                    <img src={`../../public/images/icons/ico7.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
+                    <img src={`/images/icons/ico7.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
                     <p className="text-sm text-gray-600 font-['Afacad']">Categoría</p>
                 </div>
                 <p className="font-['Afacad'] font-medium">{recipe.category}</p>
@@ -160,7 +160,7 @@ const RecipeModal = ({ recipe, isOpen, onClose }) => {
 
               <div>
                 <div className='flex'>
-                    <img src={`../../public/images/icons/ico8.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
+                    <img src={`/images/icons/ico8.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
                     <p className="text-sm text-gray-600 font-['Afacad']">Estación</p>
                 </div>
                 <p className="font-['Afacad'] font-medium">{recipe.station}</p>
@@ -168,7 +168,7 @@ const RecipeModal = ({ recipe, isOpen, onClose }) => {
 
               <div>
                 <div className='flex'>
-                    <img src={`../../public/images/icons/ico2Categoria.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
+                    <img src={`/images/icons/ico2Categoria.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
                     <p className="text-sm text-gray-600 font-['Afacad']">Porciones</p>
                 </div>
                 <p className="font-['Afacad'] font-medium">{recipe.yield}</p>
@@ -176,7 +176,7 @@ const RecipeModal = ({ recipe, isOpen, onClose }) => {
 
               <div>
                 <div className='flex'>
-                    <img src={`../../public/images/icons/ico9Categoria.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
+                    <img src={`/images/icons/ico9Categoria.png`} className="w-4 h-4.5 mx-0.5 object-cover"/>
                     <p className="text-sm text-gray-600 font-['Afacad']">Método</p>
                 </div>
                 <p className="font-['Afacad'] font-medium">{recipe.cookingMethod}</p>
