@@ -18,55 +18,46 @@ const SectionCategoryButtons = ({ category }) => {
     <div className="text-center px-4 sm:px-6 lg:px-8">
       {/* Sección de título con adornos */}
       <div className="w-full max-w-6xl mx-auto">
-        <div className="flex justify-center mb-4 sm:mb-6">
+        <div className="w-100 justify-center text-center m-auto">
+        <img
+          src={`/images/adorno1.png`}
+          className="w-40 h-full m-auto object-cover"
+        />
+        <div className='flex justify-center'>
           <img
-            src="/images/adorno1.png"
-            className="w-20 h-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 object-cover"
-            alt="Adorno decorativo"
+            src={`/images/sectionRight.png`}
+            className="w-40 m-auto object-cover scale-x-[-1]"
+          />
+            <div className="text-[17px] font-['Podkova']">
+              <p className='h-5'>CATEGORIAS</p>
+              <p className='h-5'>RECETAS</p>
+            </div>
+          <img
+            src={`/images/sectionRight.png`}
+            className="w-40 m-auto object-cover"
           />
         </div>
-        
-        <div className="flex items-center justify-center gap-2 sm:gap-4 mb-8 sm:mb-12">
-          {/* Adorno izquierdo */}
-          <img
-            src="/images/sectionRight.png"
-            className="w-16 h-16 sm:w-24 sm:h-24 lg:w-32 lg:h-32 object-cover scale-x-[-1] hidden xs:block"
-            alt="Adorno lateral izquierdo"
-          />
-          
-          {/* Texto del título */}
-          <div className="text-[14px] sm:text-[16px] lg:text-[17px] font-['Podkova'] text-center mx-2 sm:mx-4">
-            <p className="h-4 sm:h-5 leading-tight">CATEGORIAS</p>
-            <p className="h-4 sm:h-5 leading-tight">RECETAS</p>
-          </div>
-          
-          {/* Adorno derecho */}
-          <img
-            src="/images/sectionRight.png"
-            className="w-16 h-16 sm:w-24 sm:h-24 lg:w-32 lg:h-32 object-cover hidden xs:block"
-            alt="Adorno lateral derecho"
-          />
-        </div>
+      </div>
       </div>
       
       {/* Grid de categorías */}
-      <div className="w-full max-w-7xl mx-auto">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-3 sm:gap-4 lg:gap-6 justify-items-center">
-          {category.map((categoryItem, index) => (
-            <div 
-              key={categoryItem.category} 
-              onClick={() => handleCategoryClick(categoryItem.category)}
-              className="cursor-pointer w-full max-w-[140px] sm:max-w-[160px] lg:max-w-none transform transition-transform duration-300 hover:scale-105"
-            >
-              <CardCategory 
-                category={categoryItem} 
-                img={""} 
-                color={colors[index % colors.length]}
-              />
-            </div>
-          ))}
-        </div>
+<div className="w-full max-w-7xl mx-auto">
+  <div className="flex flex-wrap justify-center gap-1 sm:gap-2"> {/* Gap muy pequeño */}
+    {category.map((categoryItem, index) => (
+      <div 
+        key={categoryItem.category} 
+        onClick={() => handleCategoryClick(categoryItem.category)}
+        className="cursor-pointer w-[130px] transform transition-transform duration-300 hover:scale-105"
+      >
+        <CardCategory 
+          category={categoryItem} 
+          img={""} 
+          color={colors[index % colors.length]}
+        />
       </div>
+    ))}
+  </div>
+</div>
     </div>
   );
 };
