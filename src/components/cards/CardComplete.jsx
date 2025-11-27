@@ -35,42 +35,42 @@ const CardComplete = ({ data, onViewMore }) => {
                 <div className="border-b-2 sm:border-b-0 sm:border-r-2 border-stone-400 pb-3 sm:pb-0 flex-shrink-0">
                     <div className="mx-1 sm:mx-2 mb-2 sm:mb-3">
                         <div className='flex items-center'>
-                            <img src={`../../public/images/icons/ico4.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
+                            <img src={`/images/icons/ico4.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
                             <h2 className="text-[17px] font-['Podkova']">PREPARACION</h2>
                         </div>
                         <p className="text-[17px] font-['Podkova']">{data.cookingTime}</p>
                     </div>
                     <div className='mx-1 sm:mx-2 mb-2 sm:mb-3'>
                         <div className='flex items-center'>
-                            <img src={`../../public/images/icons/ico5.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
+                            <img src={`/images/icons/ico5.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
                             <h2 className="text-[17px] font-['Podkova']">DIFICULTAD</h2>
                         </div>
                         <p className="text-[17px] font-['Podkova']">{data.difficulty}</p>
                     </div>
                     <div className='mx-1 sm:mx-2 mb-2 sm:mb-3'>
                         <div className='flex items-center'>
-                            <img src={`../../public/images/icons/ico6.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
+                            <img src={`/images/icons/ico6.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
                             <h2 className="text-[17px] font-['Podkova']">AUTOR</h2>
                         </div>
                         <p className="text-[17px] font-['Podkova']">{data.autor}</p>
                     </div>
                     <div className='mx-1 sm:mx-2 mb-2 sm:mb-3'>
                         <div className='flex items-center'>
-                            <img src={`../../public/images/icons/ico7.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
+                            <img src={`/images/icons/ico7.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
                             <h2 className="text-[17px] font-['Podkova']">RENDIMIENTO</h2>
                         </div>
                         <p className="text-[17px] font-['Podkova']">{data.yield}</p>
                     </div>
                     <div className='mx-1 sm:mx-2 mb-2 sm:mb-3'>
                         <div className='flex items-center'>
-                            <img src={`../../public/images/icons/ico8.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
+                            <img src={`/images/icons/ico8.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
                             <h2 className="text-[17px] font-['Podkova']">ESTACION</h2>
                         </div>
                         <p className="text-[17px] font-['Podkova']">{data.station}</p>
                     </div>
                     <div className='mx-1 sm:mx-2'>
                         <div className='flex items-center'>
-                            <img src={`../../public/images/icons/ico9.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
+                            <img src={`/images/icons/ico9.png`} className="w-3 h-3 sm:w-4 sm:h-4.5 mx-0.5 object-cover"/>
                             <h2 className="text-[17px] font-['Podkova']">METODO COCCION</h2>
                         </div>
                         <p className="text-[17px] font-['Podkova']">{data.cookingMethod}</p>

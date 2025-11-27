@@ -24,19 +24,19 @@ const CardMiddle = ({ data, onAddToCart }) => {
             <div className="mt-1 flex border-b pb-1 border-black/10 text-xs sm:text-[14px] font-medium justify-between font-['Afacad'] flex-shrink-0">
                 <div className="flex items-center">
                     <div
-                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('../../public/images/icons/ico3.png')]"
+                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('/images/icons/ico3.png')]"
                     />
                     <p className="pt-0.5 sm:pt-1">{data.yield} pz</p>
                 </div>
                 <div className="flex items-center">
                     <div
-                        className="w-4 h-4 sm:w-6 sm:h-6 bg-cover mx-0.5 bg-[url('../../public/images/icons/ico2.png')]"
+                        className="w-4 h-4 sm:w-6 sm:h-6 bg-cover mx-0.5 bg-[url('/images/icons/ico2.png')]"
                     />
                     <p className="pt-0.5 sm:pt-1">{data.category}</p>
                 </div>
                 <div className="flex items-center">
                     <div
-                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('../../public/images/icons/icoPrice.png')]"
+                        className="w-4 h-4 sm:w-5.5 sm:h-5.5 bg-cover mx-0.5 bg-[url('/images/icons/icoPrice.png')]"
                     />
                     <p className="pt-0.5 sm:pt-1">${data.price}MXN</p>
                 </div>

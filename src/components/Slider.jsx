@@ -6,7 +6,7 @@ const Slider = ({ onProductSelect, onRecipeSelect }) => {
       text-center 
       pt-35
       pb-45
-      bg-[url('../../public/images/imgTop.png')]
+      bg-[url('/images/imgTop.png')]
       bg-cover 
       bg-center
     ">

@@ -18,7 +18,7 @@ const SectionRecipesTop = ({ title, subtitule, data, onRecipeClick }) => {
       <h2 className="text-gray-600 text-base sm:text-lg lg:text-[20px] font-['Podkova'] mt-2">{subtitule}</h2>
       <div className="w-full justify-center text-center m-auto">
         <img
-          src={`../../public/images/section.png`}
+          src={`/images/section.png`}
           className="w-60 sm:w-70 lg:w-90 h-full m-auto object-cover"
           alt="Section decoration"
         />     
@@ -38,7 +38,7 @@ const SectionRecipesTop = ({ title, subtitule, data, onRecipeClick }) => {
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 mt-6 mx-auto">
               <div className="text-center">
                 <div className='flex justify-center items-center mb-1'>
-                  <img src={`../../public/images/icons/ico4.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Tiempo preparación"/>
+                  <img src={`/images/icons/ico4.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Tiempo preparación"/>
                   <h2 className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">PREPARACION</h2>
                 </div>
                 <p className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">{featuredRecipe.cookingTime}</p>
@@ -46,7 +46,7 @@ const SectionRecipesTop = ({ title, subtitule, data, onRecipeClick }) => {
               
               <div className='text-center'>
                 <div className='flex justify-center items-center mb-1'>
-                  <img src={`../../public/images/icons/ico5.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Dificultad"/>
+                  <img src={`/images/icons/ico5.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Dificultad"/>
                   <h2 className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">DIFICULTAD</h2>
                 </div>
                 <p className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">{featuredRecipe.difficulty}</p>
@@ -54,7 +54,7 @@ const SectionRecipesTop = ({ title, subtitule, data, onRecipeClick }) => {
               
               <div className='text-center'>
                 <div className='flex justify-center items-center mb-1'>
-                  <img src={`../../public/images/icons/ico6.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Autor"/>
+                  <img src={`/images/icons/ico6.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Autor"/>
                   <h2 className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">AUTOR</h2>
                 </div>
                 <p className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">{featuredRecipe.autor}</p>
@@ -62,7 +62,7 @@ const SectionRecipesTop = ({ title, subtitule, data, onRecipeClick }) => {
               
               <div className='text-center'>
                 <div className='flex justify-center items-center mb-1'>
-                  <img src={`../../public/images/icons/ico7.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Rendimiento"/>
+                  <img src={`/images/icons/ico7.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Rendimiento"/>
                   <h2 className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">RENDIMIENTO</h2>
                 </div>
                 <p className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">{featuredRecipe.yield}</p>
@@ -70,7 +70,7 @@ const SectionRecipesTop = ({ title, subtitule, data, onRecipeClick }) => {
               
               <div className='text-center'>
                 <div className='flex justify-center items-center mb-1'>
-                  <img src={`../../public/images/icons/ico8.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Estación"/>
+                  <img src={`/images/icons/ico8.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Estación"/>
                   <h2 className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">ESTACION</h2>
                 </div>
                 <p className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">{featuredRecipe.station}</p>
@@ -78,7 +78,7 @@ const SectionRecipesTop = ({ title, subtitule, data, onRecipeClick }) => {
               
               <div className='text-center'>
                 <div className='flex justify-center items-center mb-1'>
-                  <img src={`../../public/images/icons/ico9.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Método cocción"/>
+                  <img src={`/images/icons/ico9.png`} className="w-4 h-4.5 mx-1 object-cover" alt="Método cocción"/>
                   <h2 className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">METODO COCCION</h2>
                 </div>
                 <p className="text-xs sm:text-sm lg:text-[15px] font-['Podkova']">{featuredRecipe.cookingMethod}</p>
@@ -99,7 +99,7 @@ const SectionRecipesTop = ({ title, subtitule, data, onRecipeClick }) => {
           {/* Imagen */}
           <div className="w-full lg:w-[40%] flex justify-center">
             <img
-              src={`../../public${featuredRecipe.imageSrc}`}
+              src={`${featuredRecipe.imageSrc}`}
               className="w-full lg:max-w-none lg:w-110 xl:w-150 h-[270px] object-cover rounded-lg shadow-lg"
               alt={featuredRecipe.name}
             />

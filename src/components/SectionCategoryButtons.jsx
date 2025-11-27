@@ -18,12 +18,12 @@ const SectionCategoryButtons = ({ category }) => {
     <div className="text-center">
       <div className="w-100 justify-center text-center m-auto">
         <img
-          src={`../../public/images/adorno1.png`}
+          src={`/images/adorno1.png`}
           className="w-40 h-full m-auto object-cover"
         />
         <div className='flex justify-center'>
           <img
-            src={`../../public/images/sectionRight.png`}
+            src={`/images/sectionRight.png`}
             className="w-40 m-auto object-cover scale-x-[-1]"
           />
             <div className="text-[17px] font-['Podkova']">
@@ -31,7 +31,7 @@ const SectionCategoryButtons = ({ category }) => {
               <p className='h-5'>RECETAS</p>
             </div>
           <img
-            src={`../../public/images/sectionRight.png`}
+            src={`/images/sectionRight.png`}
             className="w-40 m-auto object-cover"
           />
         </div>
