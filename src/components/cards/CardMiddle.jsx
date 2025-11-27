@@ -11,7 +11,7 @@ const CardMiddle = ({ data, onAddToCart }) => {
             {/* Imagen con nombre */}
             <div className="w-full h-32 sm:h-35 md:h-37 relative flex-shrink-0">
                 <img
-                    src={`../../public${data.imageSrc}`}
+                    src={`${data.imageSrc}`}
                     className="w-full h-full object-cover"
                     alt={data.name}
                 />

@@ -3,7 +3,7 @@ const CardBasic = ({ data }) => {
         <div className="w-60 sm:w-64 md:w-70 bg-white relative p-2 my-2 shadow-lg/30 rounded-sm cursor-pointer flex flex-col transition-transform duration-300 hover:scale-[1.02]">
             <div className="w-full h-32 sm:h-35 md:h-37 relative flex-shrink-0">
                 <img
-                    src={`../../public${data.imageSrc}`}
+                    src={`${data.imageSrc}`}
                     className="w-full h-full object-cover"
                 />
                 <div className="absolute h-7 sm:h-8 bottom-0 left-0 text-left right-0 text-white backdrop-blur-xs bg-black/50 uppercase font-['Ranga'] px-1 text-lg sm:text-xl md:text-[24px] truncate">

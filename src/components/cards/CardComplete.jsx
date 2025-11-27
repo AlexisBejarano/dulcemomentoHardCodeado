@@ -18,7 +18,7 @@ const CardComplete = ({ data, onViewMore }) => {
                     {data.name}
                 </div>
                 <img
-                    src={`../../public${data.imageSrc}`}
+                    src={`${data.imageSrc}`}
                     className="w-full h-24 sm:h-28 md:h-30 object-cover bg-white rounded"
                     alt={data.name}
                 />

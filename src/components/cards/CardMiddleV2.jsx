@@ -10,7 +10,7 @@ const CardMiddleV2 = ({ data, onAddToCart }) => {
         <div className="w-60 sm:w-64 md:w-70 h-80 sm:h-88 md:h-92 bg-white relative p-2 my-2 shadow-lg/30 rounded-sm cursor-pointer flex flex-col transition-transform duration-300 hover:scale-[1.02]">
             <div className="w-full h-32 sm:h-35 md:h-37 relative flex-shrink-0">
                 <img
-                    src={`../../public${data.imageSrc}`}
+                    src={`${data.imageSrc}`}
                     className="w-full h-full object-cover"
                     alt={data.name}
                 />
